@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images/background.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Poiret One", "Noto Serif JP", sans-serif;
+  font-weight:100;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.text a:hover {
+  border-bottom: 2px dotted white;
+}
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.link a {
+  color:lightslategray;
+  background-color: white;
+  display: inline-block;
+  opacity:0.6;
+  margin-top: 30px;
+  margin-right:10px;
+  height:40px;
+  width: 20%;
+  font-size: 20px;
+  transition: opacity 0.5s;
+  
+}
+.link a:hover {
+  opacity:1;
+}
+.fab {
+   color: lightslategrey;
+   font-size: 30px;
+   padding: 5px 10px;
+   
+}
+ 
+
+.top-wrapper h1 {
+  
+  font-size: 40px;
+  text-align:right;
+  padding-top: 170px;
+  padding-bottom: 70px;
+  color:white;
+  font-weight: 100;
+  font-size: 60px;
+  
+}
+.text a {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text ul {
+  text-align: right;
+}
+
+@media screen and (max-width: 670px){
+  .container {
+    width: 90%;
+  }
+  .top-wrapper h1{
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-size: 45px;
+  text-align: center;
+  } 
+  .text  a {
+    font-size: 30px;
+  }
+ .link {
+   padding-bottom: 40px;
+ }
+  .link a {
+    width:100%;
+    margin:20px auto;
+  }
+  .text ul {
+    text-align: center;
+    padding: 40px;
+  }
+}
+.top {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 40px;
+  
+}
+.top:hover{
+  border-bottom: 2px dotted white;
+}
+
+.biography p {
+  font-size: 20px;
+  color: white;
+  width: 580px;
+  line-height: 1.7;
+  
+}
+.name {
+  margin-top: 200px;
+}
+.photo {
+  height: 30%;
+  width:30%;
+  float: right;
+  padding-top :150px;
+}
+@media screen and (max-width: 670px){
+  .photo {
+    height: 100%;
+    width: 100%;
+    padding-top :70px;
+    
+  }
+  
+  
+  .biography p {
+    font-size:15px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .name {
+    margin-top :50px;
+    
+  }
+ 
+}
+.music {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.music li {
+  width:50%;
+  padding: 30px;
+  
+}
+@media screen and (max-width: 670px){
+  .music li {
+    width:100%;
+    padding:20px 0;
+  }
+  .music {
+    margin-bottom:100px;
+  }
+}
